@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Турагенство - Услуги</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; } /*separate-ячейки разделены, collapse-у ячеек таблицы отда граница*/
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #fdacac; }
+        .quantity { background-color: bisque; }
+    </style>
+</head>
+<body>
+    <h1>Наши туры:</h1>
+    <table>
+        <tr>
+            <th>Название тура</th>
+            <th>Стоимость</th>
+            <th class="quantity">Количество</th>
+        </tr>
+        <tr>
+            <td>Париж</td>
+            <td rowspan="2">$1000</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Рим</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Каир</td>
+            <td>$1500</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>Карелия</td>
+            <td>$700</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Анкара</td>
+            <td>$1105</td>
+            <td>12</td>
+        </tr>
+    </table>
+</body>
+</html>

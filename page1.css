@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    color: rgb(87, 87, 214);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 95%;
+    text-align: justify;
+}
+
+.tours {
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    padding: 10px 20px;
+    background-color: #fdacac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.author {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #adefed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
